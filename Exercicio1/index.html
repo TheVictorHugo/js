@@ -6,23 +6,18 @@
 
 </head>
 <body>
+	<form name = "frm" method = "post">
+			Nome: <input type="text" name="nome" id="nome"><br>
+			Idade: <input type="text" name="idade" id="idade"><br>
+			Salário: <input type="text" name="salario" id="salario"><br>
+			Cargor: <input type="text" name="cargo" id="cargo"><br>
 
-	<p><a href="https://www.google.com.br/"> Link 01</a></p>
-	<p><a href="https://canaltech.com.br/"> Link 02</a></p>
-	<p><button id="botao">Clique aqui </button>
-	<form>
-		<input type="text" id="nome">
-		<input type="submit" value="ok">
-	</form>
-		<h2> Nossos cursos completos </h2>
-	<ul>
-		<li>CSS - Completo e Passo a Passo</li>
-		<li>JavaScritp - completo e Paaso a Passo</li>
-		<li> Jquery - Completo e Passo a Passo</li>
-		<li> Angular - Completo e Passo a Passo</li>
-		<li> PHP - Completo e Passo a Passo</li>
-		<li> Java - Completo e Passo a Passo</li>
-	</ul>
+			<input type = "button" value="calcular" onclick="calculaSalario()" id="btncalcular">
+	</from>
+	<p id="resultado" ><p>
+
+
+
 	<script type="text/javascript" src="js/js.js"></script>
 </body>
 </html>
